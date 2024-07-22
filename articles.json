@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Premier Article",
+        "content": "Ceci est le contenu de mon premier article. Il est très intéressant et informatif."
+    },
+    {
+        "title": "Deuxième Article",
+        "content": "Ceci est le contenu de mon deuxième article."
+    }, 
+    {
+        "title": "Troisième Article",
+        "content": "Ceci est le contenu de mon troisième article. Il est très instructif et bien écrit."
+    },
+    {
+        "title": "Quatrième Article",
+        "content": "Ceci est le contenu de mon quatrième article. Il est très intéressant et informatif."
+    },
+    {
+        "title": "Cinquième Article",
+        "content": "Ceci est le contenu de mon cinquième article. Il contient beaucoup d'informations utiles."
+    }
+]
