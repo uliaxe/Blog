@@ -43,11 +43,41 @@ main {
     background-color: #1e1e2f;
 }
 
-footer {
+/* Styles pour le footer */
+.footer {
     background-color: #262646;
     color: #ffffff;
-    text-align: center;
-    padding: 1rem 0;
+}
+
+.footer .footer-icon {
+    color: #00bcd4; /* Couleur de l'icône */
+    font-size: 1.5rem; /* Taille de l'icône */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-icon i {
+    margin-right: 0.5rem; /* Espace entre l'icône et le texte */
+}
+
+.footer .footer-icon:hover {
+    color: #f39c12; /* Couleur d'accentuation au survol */
+}
+
+.footer .footer-contact {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer .footer-contact:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.875rem;
 }
 
 .jumbotron {
@@ -109,4 +139,71 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Ajouter cette section pour styliser l'image du CV */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Cartes de projet dans le Portfolio */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Formulaire de contact */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form .btn-primary {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+form .btn-primary:hover {
+    background-color: #019caf;
+    border-color: #018aa3;
 }
