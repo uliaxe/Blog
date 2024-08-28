@@ -207,3 +207,60 @@ form .btn-primary:hover {
     background-color: #019caf;
     border-color: #018aa3;
 }
+
+/* Styles supplémentaires pour l'article dynamique */
+#article {
+    background-color: #262646;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#article h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00bcd4;
+}
+
+#article p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #dddddd;
+}
+
+#article h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #f39c12;
+}
+
+#article a {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+#article a:hover {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+#article ul,
+#article ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    color: #dddddd;
+}
+
+#article li {
+    margin-bottom: 0.5rem;
+}

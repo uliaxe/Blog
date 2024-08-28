@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             articles.forEach((article, index) => {
                 const articleElement = document.createElement("div");
                 articleElement.classList.add("col-md-4");
+                articleElement.setAttribute('id', `article-${index}`); // Attribuer un ID unique à l'article
 
                 const cardElement = document.createElement("div");
                 cardElement.classList.add("card", "article-preview");
