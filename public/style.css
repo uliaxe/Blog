@@ -43,26 +43,25 @@ main {
     background-color: #1e1e2f;
 }
 
-/* Styles pour le footer */
 .footer {
     background-color: #262646;
     color: #ffffff;
 }
 
 .footer .footer-icon {
-    color: #00bcd4; /* Couleur de l'icône */
-    font-size: 1.5rem; /* Taille de l'icône */
+    color: #00bcd4; 
+    font-size: 1.5rem; 
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
 .footer .footer-icon i {
-    margin-right: 0.5rem; /* Espace entre l'icône et le texte */
+    margin-right: 0.5rem; 
 }
 
 .footer .footer-icon:hover {
-    color: #f39c12; /* Couleur d'accentuation au survol */
+    color: #f39c12; 
 }
 
 .footer .footer-contact {
@@ -141,7 +140,7 @@ footer p {
     margin: 0;
 }
 
-/* Ajouter cette section pour styliser l'image du CV */
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -155,7 +154,7 @@ footer p {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-/* Cartes de projet dans le Portfolio */
+
 .card {
     background-color: #ffffff;
     border: 1px solid #333;
@@ -181,7 +180,6 @@ footer p {
     color: #000000;
 }
 
-/* Formulaire de contact */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -208,7 +206,7 @@ form .btn-primary:hover {
     border-color: #018aa3;
 }
 
-/* Styles supplémentaires pour l'article dynamique */
+
 #article {
     background-color: #262646;
     color: #ffffff;

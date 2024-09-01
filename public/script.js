@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             articles.forEach((article, index) => {
                 const articleElement = document.createElement("div");
                 articleElement.classList.add("col-md-4");
-                articleElement.setAttribute('id', `article-${index}`); // Attribuer un ID unique à l'article
+                articleElement.setAttribute('id', `article-${index}`);
 
                 const cardElement = document.createElement("div");
                 cardElement.classList.add("card", "article-preview");
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 const excerptElement = document.createElement("p");
                 excerptElement.classList.add("card-text");
-                excerptElement.textContent = article.content.substring(0, 100) + '...'; // Aperçu du contenu
+                excerptElement.textContent = article.content.substring(0, 100) + '...';
 
                 const readMoreLink = document.createElement("a");
                 readMoreLink.classList.add("btn", "btn-primary");
@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 articleElement.appendChild(cardElement);
 
-                // Ajoute l'article aux deux conteneurs (page d'accueil et page blog)
                 if (articlesContainer) articlesContainer.appendChild(articleElement.cloneNode(true));
                 if (latestPostsContainer && index < 3) latestPostsContainer.appendChild(articleElement);
             });
